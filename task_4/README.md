@@ -23,7 +23,9 @@ RAG AI Assistant (FastAPI + Gemini + Qdrant).
 
 3. **Test**:
 
-   Run the following command to test the API:
+   API can be tested using `curl` or by accessing the Swagger UI at `http://localhost:8000/docs`.   
+
+   Run the following command to test the API by curl:
    
    ```bash
    curl -X 'POST' \
