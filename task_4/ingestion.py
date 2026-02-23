@@ -64,7 +64,7 @@ try:
             time.sleep(1)
 
         except Exception as e:
-            if "429" in str(e): # Ошибка Rate Limit
+            if "429" in str(e):
                 print("Limit exceeded; waiting 60 seconds before retrying...")
                 time.sleep(60)
             else:
